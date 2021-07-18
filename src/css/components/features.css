@@ -1,0 +1,23 @@
+.features-content {
+  padding-inline: 1.5rem;
+}
+.features__description-info {
+  text-align: center;
+  padding-block-start: 2rem;
+  padding-block-end: 2.5rem;
+}
+.feature-card {
+  display: flex;
+  gap: 1.5rem;
+  margin-block-end: 1.5rem;
+}
+.feature-card__image {
+  flex-shrink: 0;
+}
+.feature-card p {
+  color: var(--grey);
+  font: var(--mobile-body1Base);
+}
+.feature-card span {
+  font: var(--mobile-body1SoftBold);
+}

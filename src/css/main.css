@@ -1,0 +1,60 @@
+@import './components/hero.css';
+@import './components/buttons.css';
+@import './components/about.css';
+@import './components/features.css';
+@import './components/gallery.css';
+@import './components/slides.css';
+@import './components/design-tags.css';
+@import './components/app.css';
+@import './components/questions.css';
+@import './components/text-gradient.css';
+
+:root {
+  --stripe-gradient: linear-gradient(180deg, #c08c79 0%, #3480b8 100%);
+  --soft-purple: #635cff;
+  --subTitleText-color: #425466;
+  --bg-color: #0e0c20;
+  --bg-dark-button: #0a2540;
+  --soft-orange: #e1585f;
+  --soft-pink: #f71058;
+  --just-purple: #d424e6;
+  --soft-greenLime: #8bde61;
+  --light-blue: #32a7ec;
+  --just-black: #212529;
+  --just-white: #fff;
+  --grey: #b6b6bc;
+  --baseFontFamily: 'Inter', sans-serif;
+  --mobile-category: bold 2rem/3.36rem var(--baseFontFamily);
+  --mobile-mainHeadline: bold 2.25rem/3.78rem var(--baseFontFamily);
+  --mobile-subHeadline: bold 1.75rem/3rem var(--baseFontFamily);
+  --mobile-thirdHeadline: bold 1.5rem/2.5rem var(--baseFontFamily);
+  --mobile-body1Base: normal 0.9375rem/1.5625rem var(--baseFontFamily);
+  --mobile-body1SoftBold: bold 0.9375rem/1.5625rem var(--baseFontFamily);
+  --mobile-body2Base: normal 0.8125rem/1.3125rem var(--baseFontFamily);
+  --mobile-body2SoftBold: bold 0.8125rem/1.3125rem var(--baseFontFamily);
+  --mobile-button: bold 0.8125rem/1.25rem var(--baseFontFamily);
+  --desktop-category: bold 3.75rem/3.75rem var(--baseFontFamily);
+  --desktop-mainHeadline: bold 3.375rem/4rem var(--baseFontFamily);
+  --desktop-subHeadline: bold 2.75rem/3.25rem var(--baseFontFamily);
+  --desktop-thirdHeadline: bold 2.5rem/3rem var(--baseFontFamily);
+  --desktop-fourHeadline: bold 1.875rem/2.25rem var(--baseFontFamily);
+  --desktop-body1Base: normal 1.25rem/1.6875rem var(--baseFontFamily);
+  --desktop-body1SoftBold: bold 1.25rem/1.6875rem var(--baseFontFamily);
+  --desktop-body2Base: normal 0.9375rem/1.5625rem var(--baseFontFamily);
+  --desktop-body2SoftBold: bold 0.9375rem/1.5625rem var(--baseFontFamily);
+  --desktop-button: bold 0.8125rem/1.25rem var(--baseFontFamily);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--just-white);
+  font-family: var(--baseFontFamily);
+}
+.wrapper {
+  max-inline-size: 1100px;
+  margin: auto;
+}
+img {
+  max-inline-size: 100%;
+}

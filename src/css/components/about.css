@@ -1,0 +1,40 @@
+.about-content {
+  position: relative;
+  padding-inline: 1.5rem;
+  text-align: center;
+  padding-block-start: 3.75rem;
+  padding-block-end: 8rem;
+}
+.about-text {
+  font: var(--desktop-body2SoftBold);
+}
+.gradient-right {
+  position: absolute;
+  inline-size: 50%;
+  top: -50px;
+  block-size: 15rem;
+  background: radial-gradient(
+    240.25% 104.59% at 50% 50%,
+    rgba(75, 102, 216, 0.4) 0%,
+    #0e0c20 100%
+  );
+
+  border-radius: 50%;
+  filter: blur(50px);
+  z-index: -1;
+}
+.gradient-left {
+  position: absolute;
+  inline-size: 50%;
+  block-size: 15rem;
+  top: -50px;
+  right: 10px;
+  background: radial-gradient(
+    240.25% 104.59% at 50% 50%,
+    #503487 0%,
+    #0e0c20 100%
+  );
+  filter: blur(50px);
+  border-radius: 50%;
+  z-index: -1;
+}

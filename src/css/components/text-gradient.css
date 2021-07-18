@@ -1,0 +1,16 @@
+/* .text-gradient {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+} */
+.is-to-purple {
+  background: linear-gradient(
+    93.83deg,
+    #b92ec1 40.05%,
+    #2b51ea 82.22%,
+    #3480b8 107.78%
+  );
+}
+.text-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

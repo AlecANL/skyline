@@ -1,0 +1,71 @@
+.btn {
+  inline-size: 100%;
+  border: none;
+  padding-block: 0.625rem;
+  padding-inline: 1.5rem;
+  background-color: unset;
+  color: var(--just-white);
+  border-radius: 0.5rem;
+  font: var(--mobile-button);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.is-gradient--pink-palette {
+  background: linear-gradient(
+    93.83deg,
+    #bf9079 -15.91%,
+    #c8717a 22.55%,
+    #b92ec1 50.05%,
+    #2b51ea 82.22%,
+    #3480b8 107.78%
+  );
+}
+.btn.btn-gradient--purple {
+  background: linear-gradient(
+    93.83deg,
+    #bf9079 -15.91%,
+    #c8717a 22.55%,
+    #b92ec1 50.05%,
+    #2b51ea 82.22%,
+    #3480b8 107.78%
+  );
+}
+.btn.is-initial {
+  border: 1px solid var(--just-white);
+}
+.btn.is-border {
+  border: 1px solid var(--just-white);
+}
+.btn.is-white {
+  background-color: var(--just-white);
+  color: var(--just-black);
+}
+.is-border-bottom-gradient {
+  border-bottom: 2px solid;
+  border-radius: 0;
+  border-color: var(--just-white);
+}
+.is-border-bottom-gradient:hover {
+  border-image: linear-gradient(
+    93.83deg,
+    #bf9079 -15.91%,
+    #c8717a 22.55%,
+    #b92ec1 50.05%,
+    #2b51ea 82.22%,
+    #3480b8 107.78%
+  );
+  border-image-slice: 1;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    font: var(--desktop-button);
+  }
+}

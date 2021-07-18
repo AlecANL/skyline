@@ -1,0 +1,23 @@
+.questions-content {
+  padding-inline: 1.5rem;
+}
+.questions-container {
+  margin-block-start: 2.5rem;
+}
+.questions-heading {
+  text-align: center;
+}
+.questions-content details {
+  color: var(--grey);
+  font: var(--desktop-body2SoftBold);
+  padding-block-end: 1.5rem;
+}
+.questions-container details p {
+  margin: 0;
+  padding-block-start: 0.5rem;
+  padding-inline-start: 1.5rem;
+}
+.questions-content summary {
+  color: var(--just-white);
+  font: var(--desktop-body2SoftBold);
+}
