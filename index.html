@@ -8,7 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="shortcut icon"
+      href="./src/assets/icons/icon-logo.svg"
+      type="image/x-icon"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./src/css/main.css" />
@@ -19,8 +30,8 @@
         <div class="hero-content">
           <h1 class="hero-content__headline">
             Edición de fotos con
-            <span class="is-to-purple text-gradient"> I vA </span> . Asombroso.
-            Más Rápido.
+            <span class="is-to-purple text-gradient"> IA </span>. Asombroso. Más
+            Rápido.
           </h1>
           <div class="hero-content__buttons">
             <button class="btn btn-gradient--purple">descarga gratuita</button>
@@ -40,6 +51,11 @@
               src="./src/assets/images/edit-picture.png"
               alt="Picture edit mode"
             />
+            <img
+              class="cover"
+              src="./src/assets/images/image-cover.png"
+              alt="cover image woman on table surf"
+            />
           </div>
         </div>
       </div>
@@ -47,18 +63,20 @@
     <section class="about" aria-label="about AI">
       <div class="wrapper">
         <div class="about-content">
-          <div class="gradient-right"></div>
-          <div class="gradient-left"></div>
-          <p class="about-text">
-            LuminarAI Update 2 ¡El cielo ya no es el límite!
-          </p>
-          <button class="btn btn--icon is-white">
-            <span> leer más </span>
-            <img
-              src="./src/assets/icons/arrow-down.svg"
-              alt="arrow down icon"
-            />
-          </button>
+          <div class="about-grid">
+            <div class="gradient-right"></div>
+            <div class="gradient-left"></div>
+            <p class="about-text">
+              LuminarAI Update 2 ¡El cielo ya no es el límite!
+            </p>
+            <button class="btn btn--icon is-white">
+              <span> leer más </span>
+              <img
+                src="./src/assets/icons/arrow-down.svg"
+                alt="arrow down icon"
+              />
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -153,6 +171,7 @@
                 alt="image creep characters"
               />
               <img
+                class="big"
                 src="./src/assets/images/image2.png"
                 alt="image contain a woman"
               />
@@ -171,6 +190,7 @@
                 alt="image about store"
               />
               <img
+                class="big"
                 src="./src/assets/images/image4.png"
                 alt="image about drink"
               />
@@ -253,9 +273,9 @@
         </div>
       </div>
     </section>
-    <section class="design-tags" aria-label="content all desing tags">
+    <section class="categories" aria-label="content all desing tags">
       <div class="wrapper">
-        <div class="design-tags-content">
+        <div class="categories-content">
           <h4>Cuerpo <span class="is-green">ai</span></h4>
           <h4>Iris <span class="is-blue">ai</span></h4>
           <h4>Rostro <span class="is-purple">ai</span></h4>
@@ -280,6 +300,7 @@
               alt="luminar logo"
             />
           </div>
+          <h3 class="app-heading">LuminarAI</h3>
           <h3 class="app-heading">LuminarAI Comienza tu experiencia</h3>
           <p class="app-description">
             Una aplicación y extensión. Para macOS y Windows.
@@ -296,8 +317,10 @@
     <section class="questions" aria-label="current questions content">
       <div class="wrapper">
         <div class="questions-content">
-          <h3 class="questions-heading">Preguntas Frecuentes</h3>
-          <button class="btn is-border">lee la guia completa</button>
+          <div class="question-description">
+            <h3 class="questions-heading">Preguntas Frecuentes</h3>
+            <button class="btn is-border">lee la guia completa</button>
+          </div>
           <div class="questions-container">
             <details open>
               <summary>¿LuminarAI procesa archivos RAW?</summary>
@@ -329,5 +352,105 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer-content">
+          <div class="footer-grid">
+            <div class="details-device">
+              <div class="details-device__heading">
+                <img
+                  src="./src/assets/icons/apple-icon.svg"
+                  width="19"
+                  height="24"
+                  alt="apple icon"
+                />
+                <span>macOS</span>
+              </div>
+              <hr />
+              <div class="details-device__content">
+                <div class="detail">
+                  <span>Modelo Mac</span>
+                  <p>
+                    MacBook, MacBook Air, MacBook Pro, iMac, iMac Pro, Mac Pro,
+                    Mac mini, de inicios de 2010 o más nuevo
+                  </p>
+                </div>
+                <div class="detail">
+                  <span>Procesador</span>
+                  <p>CPU Intel® Core™ i5 o superior</p>
+                </div>
+                <div class="detail">
+                  <span>OS versión</span>
+                  <p>macOS - 10.13.6 o superior.</p>
+                </div>
+                <div class="detail">
+                  <span>RAM</span>
+                  <p>Memoria RAM de 8 GB o superior (16+ GB RAM recomendado)</p>
+                </div>
+                <div class="detail">
+                  <span> Espacio en disco </span>
+                  <p>
+                    10 GB de espacio libre en disco; SSD para un mejor
+                    rendimiento
+                  </p>
+                </div>
+                <div class="detail">
+                  <span>Pantalla</span>
+                  <p>Resolución de 1280x768 o mayor</p>
+                </div>
+              </div>
+            </div>
+            <div class="details-device">
+              <div class="details-device__heading">
+                <img
+                  src="./src/assets/icons/windows-icon.svg"
+                  width="19"
+                  height="24"
+                  alt="windows icon"
+                />
+                <span>Windows</span>
+              </div>
+              <hr />
+              <div class="details-device__content">
+                <div class="detail">
+                  <span>Hardware</span>
+                  <p>
+                    PC con hardware basado en Windows con mouse o un dispositivo
+                    de entrada similar
+                  </p>
+                </div>
+                <div class="detail">
+                  <span>Procesador</span>
+                  <p>CPU Intel® Core™ i5 o superior, AMD Ryzen™ 5 o superior</p>
+                </div>
+                <div class="detail">
+                  <span>OS versión</span>
+                  <p>10 (solo SO de 64-bits)</p>
+                </div>
+                <div class="detail">
+                  <span>RAM</span>
+                  <p>Memoria RAM de 8 GB o superior (16+ GB RAM recomendado)</p>
+                </div>
+                <div class="detail">
+                  <span> Espacio en disco </span>
+                  <p>
+                    10 GB de espacio libre en disco; SSD para un mejor
+                    rendimiento
+                  </p>
+                </div>
+                <div class="detail">
+                  <span>Pantalla</span>
+                  <p>Resolución de 1280x768 o mayor</p>
+                </div>
+                <div class="detail">
+                  <span>Gráficos</span>
+                  <p>Tarjeta Gráfica Open GL 3.3 compatible o posterior</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

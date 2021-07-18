@@ -1,0 +1,49 @@
+.footer {
+  background-color: var(--bgColorFooter);
+}
+.footer-content {
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+}
+.footer-content hr {
+  margin-block: 1.5rem;
+}
+.details-device__heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font: var(--mobile-body1SoftBold);
+}
+.detail span {
+  font: var(--mobile-body2SoftBold);
+}
+
+.detail p {
+  margin: 0;
+  color: var(--grey);
+  font: var(--mobile-body2Base);
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-block-end: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+    padding-block: 5rem;
+  }
+  .details-device__heading {
+    font: var(--desktop-fourHeadline);
+  }
+  .detail span {
+    font: var(--desktop-body2SoftBold);
+  }
+
+  .detail p {
+    font: var(--desktop-body2Base);
+  }
+}

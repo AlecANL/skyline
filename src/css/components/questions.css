@@ -1,5 +1,6 @@
 .questions-content {
   padding-inline: 1.5rem;
+  padding-block-end: 4rem;
 }
 .questions-container {
   margin-block-start: 2.5rem;
@@ -20,4 +21,26 @@
 .questions-content summary {
   color: var(--just-white);
   font: var(--desktop-body2SoftBold);
+}
+@media screen and (min-width: 768px) {
+  .questions-content {
+    display: grid;
+    grid-template-columns: 305px 1fr;
+    column-gap: 7.8125rem;
+    padding-block-end: 8rem;
+  }
+  .questions-heading {
+    text-align: start;
+    font: var(--desktop-subHeadline);
+  }
+
+  .question-description button {
+    max-inline-size: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .questions-content {
+    column-gap: 13rem;
+  }
 }

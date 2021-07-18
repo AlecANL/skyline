@@ -38,3 +38,51 @@
   border-radius: 50%;
   z-index: -1;
 }
+
+@media screen and (min-width: 480px) {
+  .gradient-right,
+  .gradient-left {
+    inline-size: 30%;
+    left: 50%;
+    top: 5%;
+  }
+  .gradient-left {
+    left: 30%;
+  }
+  .about-text {
+    text-align: start;
+    font: var(--desktop-body1SoftBold);
+  }
+  .about-content {
+    display: flex;
+    justify-content: center;
+  }
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-grid {
+    align-items: flex-start;
+  }
+
+  .gradient-left,
+  .gradient-right {
+    left: 0;
+    top: 30%;
+    inline-size: 20%;
+    block-size: 12.5rem;
+    filter: blur(60px);
+    transform: translateY(-30%);
+  }
+  .gradient-right {
+    left: 10%;
+  }
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -21,3 +21,33 @@
 .feature-card span {
   font: var(--mobile-body1SoftBold);
 }
+
+@media screen and (min-width: 768px) {
+  .features-content {
+    display: flex;
+    gap: 2rem;
+  }
+  .features__description-info {
+    padding-block-start: 0;
+    text-align: start;
+  }
+  .features__gallery {
+    overflow: hidden;
+  }
+  .features__gallery img {
+    object-fit: cover;
+    inline-size: 100%;
+    min-block-size: 45.9375rem;
+  }
+  .feature-card p {
+    font: var(--desktop-body2Base);
+  }
+  .feature-card span {
+    font: var(--desktop-body1SoftBold);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features-content {
+    gap: 7.8125rem;
+  }
+}
