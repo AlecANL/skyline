@@ -1,0 +1,14 @@
+@import './nav.css';
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header-content {
+    justify-content: space-between;
+  }
+}

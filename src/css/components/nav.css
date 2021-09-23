@@ -1,0 +1,24 @@
+.navigation {
+  display: none;
+}
+.navigation ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navigation a {
+  display: inline-block;
+  padding-block: 0.5rem;
+  padding-inline: 1.5rem;
+  font: var(--desktop-body2SoftBold);
+  color: var(--just-white);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: block;
+  }
+}
